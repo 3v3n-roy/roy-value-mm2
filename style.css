@@ -1,1 +1,94 @@
+body {
+    margin: 0px;
+    font-size: 15pt;
+    background: linear-gradient(#222650,#191F5B);
+    overflow: auto;
+    height: 90vh;
+}
 
+.container {
+    height: 100vh;
+}
+
+header {    
+    border-bottom-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    display: grid;
+    place-items: center;
+    margin: 0vh;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    background: linear-gradient(#525AB2,#3742AD);
+    padding: 2%;
+    font-family: 'Fredoka One', cursive; /* optional */
+    font-size: 6vh;
+    border: 0.1vh solid #999ED8;
+}
+
+.yuuka {
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+    filter: drop-shadow(10 10 10 white);
+}
+
+
+p {
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.tier {
+    font-size: 6vh;
+    color: white;
+    font-family: 'Fredoka One', cursive; 
+    display: grid;
+    place-items: center;
+    margin: 1vh;
+}
+.items {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    gap: 4.5vh;
+}
+.godly {
+    height: 33vh;
+    background: linear-gradient(#525AB2,#3742AD);
+    width: 20vh;
+    border: 0.1vh solid #999ED8;
+    border-radius: 2.7vh;
+}
+
+.godly_image {
+    margin-top: 1vh;
+    height: 12vh;
+    width: 12vh;
+    background: #525AB2;
+    padding: 3vh;
+    border: 0.3vh solid #222650;
+    border-radius: 3vh;
+}
+
+.text {
+    font-size: 1.5vh;
+    margin: 0vh;
+}
+
+.name {
+    font-size: 2vh;
+    color: white;
+    font-family: 'Fredoka One', cursive; /* optional */
+    margin: 0vh;
+    padding-top: 0.3vh;
+}
+
+.changes {
+    font-family: 'Fredoka One', cursive; /* optional */
+    font-size: 2.3vh;
+}
