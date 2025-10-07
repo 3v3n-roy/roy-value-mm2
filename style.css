@@ -53,6 +53,7 @@ p {
 }
 .items {
     margin-top: 3vh;
+    margin-left: 2vh;
     display: flex;
     justify-content: center;
     gap: 4.5vh;
